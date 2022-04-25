@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registeration</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <table align="center"   border="1px solid black" >
+    <form action="register" method="post" style="margin: auto; width: 220px;">
+        {% csrf_token %}
+        
+        <tr >
+            <h3 align= "center">Registeration Form</h3>
+        <td><label>FirstName :<input type="text" name="first_name" placeholder="First Name"></lable> </td></tr>
+        <tr><td><label>LastName :</label>  <input type="text" name="last_name" placeholder="Last Name"></td></tr>
+        <tr><td> <label>UserName :</label>  <input type="text" name="username" placeholder="Username"></td></tr>
+        <tr><td><label>Email :     <input type="email" name="email" placeholder="email">  </label></td></tr>
+        <tr><td><label>Password :</label>   <input type="password" name="password1" placeholder="Password"></td></tr>
+        <tr><td><label>ConfirmPassword :</label>  <input type="password" name="password2" placeholder="Confirm Password"></td></tr>
+        <tr align="center"><td><input type="Submit"></td></tr>
+
+    </form>
+</table>
+    <div>
+        {% for message in messages %}
+        <h3> {{message}}  </h3>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
