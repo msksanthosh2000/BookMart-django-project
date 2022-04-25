@@ -7,6 +7,7 @@
 
 ## Database
 <img width="975" alt="Backend-database-stored" src="https://user-images.githubusercontent.com/54888592/165124009-9218e5fe-63fa-448b-9a1a-d19a820e406b.png">
+
 ## Admin page
 
 ![Log-in-Django-site-admin](https://user-images.githubusercontent.com/54888592/165124104-f7148cc1-ef63-496e-87e0-d685e1d3b715.png)
