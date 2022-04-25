@@ -10,6 +10,7 @@
 ## Admin page
 
 ![Log-in-Django-site-admin](https://user-images.githubusercontent.com/54888592/165124104-f7148cc1-ef63-496e-87e0-d685e1d3b715.png)
+
 ## Registration
 
 <img width="975" alt="Registered-user-details" src="https://user-images.githubusercontent.com/54888592/165124169-f72aa9ae-1ce8-4804-8c79-7a41177c388b.png">
